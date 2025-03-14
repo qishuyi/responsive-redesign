@@ -1,0 +1,126 @@
+  <!-- TO RUN IN BROWSER:
+    1. Install vscode extension Name: open in `browser open-in-browser` by TechER
+    2. Right click html file and either run in default browser or another browser
+  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Redesign</title>
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="styles.css" /> 
+  </head>
+
+  <!-- page content goes into <body> -->
+  <body>
+    <div>
+      <div id="mainTitle">
+        <div id="pageTitle">
+          <h1>Responsive Redesign</h1>
+        </div>
+        <div id="nameAndTime">
+          <h4>Shuyi Qi 2025/03</h4>
+        </div>
+      </div>
+      <div>
+        <p>
+          This study aims at redesigning the home page of the website of City Kitty, 
+          a local vet in Providence providing healthcare for cats. I chose this website 
+          because I plan to take my cat to City Kitty for a vet visit. I chose this interface 
+          because I saw some design problems in it, such as the buttons did not present themselves 
+          as clickable, making it hard for users to learn the interface. 
+        </p>
+        <img id="screenshot" src="assets/city_kitty_screenshot.png" alt="Home page screenshot">
+      </div>
+      <div>
+        <h2 class="sectionTitle">0. Finding Problems</h2>
+      </div>
+      <div>
+        <h4 class="subTitle">Efficiency:</h4>
+        <ul>
+          <li>
+            Because users usually read from left to right and then top to bottom, I 
+            think laying out the clickable buttons horizontally at the top will be 
+            more efficient.
+          </li>
+          <li>
+            In addition, the text on the buttons are not written horizontally, but instead 
+            with some angles, which makes it harder for the users to read. I suggest making them 
+            all horizontal and parallel.
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="subTitle">Learnability:</h4>
+        <ul>
+          <li>
+            The design of making all the clickable buttons into street signs is also inefficient 
+            because it makes the buttons look like they are only for decorative purpose, which makes it 
+            harder to learn.
+          </li>
+          <li>
+            Moreover, the title "Veterinary Care For Cats" has the same design as the buttons but the title 
+            is not clickable, which also makes the interface hard to learn.
+          </li>
+        </ul>
+      <div>
+        <h4 class="subTitle">Memorability:</h4>
+        <ul>
+          <li>
+            All the clickable items are laid out with the same design without clear hierarchies, 
+            which makes it harder to memorize for the users. For a redesign, I would place some buttons 
+            on the top right corner and the others above the title to make it more memorable.
+          </li>
+          <li>
+            The important information such as address and phone number is not highlighted red while 
+            the less important messages, such as the welcome message, are highlighted red.
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="subTitle">Accessibility:</h4>
+        <ul>
+          <li>
+            The WebAIM WAVE indicates color contrast errors in the webpage, along with 
+            several alerts, including "Redundant alternative text", "Orphaned form label", 
+            "Skipped heading level", "Suspicious link text", "Noscript element" and "Tabindex". 
+          </li>
+          <li>
+            The skipped heading level aligns with my findings about the mixed and unclear hierarchies in the text. 
+          </li>
+          <li>
+            I think the suspicious link text alert occured because the link was inserted in a block of text and does not 
+            make consistent sense in its context. The link could be wrapped in a more meaningful sentence.
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="sectionTitle">1. Visual Redesign</h2>
+      </div>
+      <div>
+        I created a visual design guide for my redesign of the webpage. It is currently a preliminary version 
+        of the design plan, as shown in the image below. 
+        <img id="visualDesignGuide" src="assets/visual_design_guide.png" alt="Visual design guide">
+      </div>
+      <div>
+        <h2 class="sectionTitle">2. Mockups</h2>
+      </div>
+      <div>
+        <h4 class="subTitle">Desktop:</h4>
+        <img id="desktopRedesign" src="assets/desktop_redesign.png" alt="Desktop Redesign Mockup">
+      </div>
+      <div>
+        <h4 class="subTitle">Tablet:</h4>
+        <img id="tabletRedesign" src="assets/tablet_redesign.png" alt="Tablet Redesign Mockup">
+      </div>
+      <div>
+        <h4 class="subTitle">Phone:</h4>
+        <img id="phoneRedesign" src="assets/phone_redesign.png" alt="Phone Redesign Mockup">
+      </div>
+    </div>
+    
+  </body>
+
+</html>
