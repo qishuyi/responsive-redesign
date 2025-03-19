@@ -92,6 +92,7 @@ h4 {
   border-right: 1px solid #808487;
   box-sizing: border-box;
   width: 10vw;
+  min-width: fit-content;
 }
 .Column2 {
   display: flex;
@@ -100,6 +101,7 @@ h4 {
   border-right: 1px solid #808487;
   box-sizing: border-box;
   width: 20vw;
+  min-width: fit-content;
 }
 .Column3 {
   display: flex;
@@ -108,6 +110,7 @@ h4 {
   border-right: 1px solid #808487;
   box-sizing: border-box;
   width: 10vw;
+  min-width: fit-content;
 }
 .Column4 {
   display: flex;
@@ -116,6 +119,7 @@ h4 {
   border-right: 1px solid #808487;
   box-sizing: border-box;
   width: 20vw;
+  min-width: fit-content;
 }
 .Column5 {
   display: flex;
@@ -124,6 +128,7 @@ h4 {
   border-right: 1px solid #808487;
   box-sizing: border-box;
   width: 10vw;
+  min-width: fit-content;
 }
 .blueButtonText {
   color: #0E89EE;
