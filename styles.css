@@ -39,7 +39,6 @@ h4 {
 #webpage {
   display: flex;
   flex-direction: column;
-  width: 100vw;
 }
 #title {
   color: #0E79F3;
@@ -57,7 +56,7 @@ h4 {
   display: flex;
   top: 0;
   right: 0;
-  width: 50vw;
+  width: 50%;
   gap: 20px;
   align-self: flex-end;
   justify-content: flex-end;
@@ -91,7 +90,7 @@ h4 {
   border-left: 1px solid #808487;
   border-right: 1px solid #808487;
   box-sizing: border-box;
-  width: 15vw;
+  width: 12vw;
   word-wrap: break-word;
 }
 .Column2 {
@@ -100,7 +99,7 @@ h4 {
   border-left: 1px solid #808487;
   border-right: 1px solid #808487;
   box-sizing: border-box;
-  width: 25vw;
+  width: 20vw;
   word-wrap: break-word;
 }
 .Column3 {
@@ -109,7 +108,7 @@ h4 {
   border-left: 1px solid #808487;
   border-right: 1px solid #808487;
   box-sizing: border-box;
-  width: 15vw;
+  width: 12vw;
   word-wrap: break-word;
 }
 .Column4 {
@@ -118,7 +117,7 @@ h4 {
   border-left: 1px solid #808487;
   border-right: 1px solid #808487;
   box-sizing: border-box;
-  width: 25vw;
+  width: 20vw;
   word-wrap: break-word;
 }
 .Column5 {
@@ -127,7 +126,7 @@ h4 {
   border-left: 1px solid #808487;
   border-right: 1px solid #808487;
   box-sizing: border-box;
-  width: 15vw;
+  width: 12vw;
   word-wrap: break-word;
 }
 .blueButtonText {
@@ -164,9 +163,13 @@ h4 {
 }
 #imageAndBody {
   margin-top: 25px;
-  min-width: 400px;
+  width: 100%;
 }
 #catImage {
+  display: flex;
+  justify-content: center;
+}
+#catImage img {
   width: 25vw;
   height: 33vw;
 }
@@ -188,9 +191,7 @@ h4 {
   color: #063969;
 }
 #webAccessibility {
-  margin-left: 15px;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin-top: 1%;
 }
 #webAccessibility img {
   border-radius: 50%;
@@ -199,7 +200,7 @@ h4 {
   border: 1px solid #063969;
   box-sizing: border-box;
 }
-@media only screen and (max-width: 375px) and (max-height: 667px) {
+@media only screen and (max-width: 400px) and (max-height: 700px) {
   #title {
     font-size: 24px;
   }
@@ -237,13 +238,13 @@ h4 {
     gap: 25px;
   }
   #textBody {
-    font-size: 10px;
+    font-size: 9px;
   }
-  #webAccessibility {
-    width: 42px
+  #webAccessibility img {
+    width: 30px;
   }
 }
-@media only screen and (max-width: 768px) and (max-height: 1024px) {
+@media only screen and (min-width: 700px) {
   #title {
     font-size: 32px;
   }
@@ -283,11 +284,11 @@ h4 {
     flex-direction: column;
     gap: 25px;
   }
-  #webAccessibility {
-    width: 55px;
+  #webAccessibility img {
+    width: 40px;
   }
 }
-@media only screen and (max-width: 3840px) and (max-height: 2160px) {
+@media only screen and (min-width: 850px) {
   #title {
     font-size: 36px;
   }
@@ -327,7 +328,7 @@ h4 {
     flex-direction: row;
     gap: 25px;
   }
-  #webAccessibility {
-    width: 60px;
+  #webAccessibility img {
+    width: 50px;
   }
 }
