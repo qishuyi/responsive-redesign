@@ -76,6 +76,7 @@ h4 {
 #buttons {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 #firstRow {
   display: flex;
@@ -165,7 +166,7 @@ h4 {
   margin-right: 25px;
   margin-top: 25px;
   min-width: 400px;
-  max-width: calc(100vw - 50px);;
+  max-width: calc(100% - 50px);
 }
 #catImage {
   width: 25vw;
