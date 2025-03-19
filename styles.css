@@ -39,6 +39,7 @@ h4 {
 #webpage {
   display: flex;
   flex-direction: column;
+  width: 100vw;
 }
 #title {
   color: #0E79F3;
@@ -162,11 +163,8 @@ h4 {
   visibility: hidden;
 }
 #imageAndBody {
-  margin-left: 25px;
-  margin-right: 25px;
   margin-top: 25px;
   min-width: 400px;
-  max-width: calc(100% - 50px);
 }
 #catImage {
   width: 25vw;
@@ -229,6 +227,10 @@ h4 {
   .Column5 {
     margin-bottom: 9px;
   }
+  #webpage {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
   #imageAndBody {
     display: flex;
     flex-direction: column;
@@ -239,18 +241,6 @@ h4 {
   }
   #webAccessibility {
     width: 42px
-  }
-  #firstRow {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-  #secondRow {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-  #thirdRow {
-    padding-left: 12px;
-    padding-right: 12px;
   }
 }
 @media only screen and (max-width: 768px) and (max-height: 1024px) {
@@ -284,6 +274,10 @@ h4 {
   #textBody {
     font-size: 12px;
   }
+  #webpage {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
   #imageAndBody {
     display: flex;
     flex-direction: column;
@@ -291,18 +285,6 @@ h4 {
   }
   #webAccessibility {
     width: 55px;
-  }
-  #firstRow {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  #secondRow {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  #thirdRow {
-    padding-left: 20px;
-    padding-right: 20px;
   }
 }
 @media only screen and (max-width: 3840px) and (max-height: 2160px) {
@@ -336,6 +318,10 @@ h4 {
   #textBody {
     font-size: 14px;
   }
+  #webpage {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
   #imageAndBody {
     display: flex;
     flex-direction: row;
@@ -343,17 +329,5 @@ h4 {
   }
   #webAccessibility {
     width: 60px;
-  }
-  #firstRow {
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-  #secondRow {
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-  #thirdRow {
-    padding-left: 25px;
-    padding-right: 25px;
   }
 }
