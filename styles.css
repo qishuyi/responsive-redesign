@@ -91,7 +91,7 @@ h4 {
   border-left: 1px solid #808487;
   border-right: 1px solid #808487;
   box-sizing: border-box;
-  width: 10vw;
+  width: 12vw;
   word-wrap: break-word;
 }
 .Column2 {
@@ -100,7 +100,7 @@ h4 {
   border-left: 1px solid #808487;
   border-right: 1px solid #808487;
   box-sizing: border-box;
-  width: 20vw;
+  width: 22vw;
   word-wrap: break-word;
 }
 .Column3 {
@@ -109,7 +109,7 @@ h4 {
   border-left: 1px solid #808487;
   border-right: 1px solid #808487;
   box-sizing: border-box;
-  width: 10vw;
+  width: 12vw;
   word-wrap: break-word;
 }
 .Column4 {
@@ -118,7 +118,7 @@ h4 {
   border-left: 1px solid #808487;
   border-right: 1px solid #808487;
   box-sizing: border-box;
-  width: 20vw;
+  width: 22vw;
   word-wrap: break-word;
 }
 .Column5 {
@@ -127,7 +127,7 @@ h4 {
   border-left: 1px solid #808487;
   border-right: 1px solid #808487;
   box-sizing: border-box;
-  width: 10vw;
+  width: 12vw;
   word-wrap: break-word;
 }
 .blueButtonText {
@@ -167,11 +167,11 @@ h4 {
   visibility: hidden;
 }
 #imageAndBody {
-  display: flex;
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 25px;
   min-width: 400px;
+  max-width: calc(100vw - 50px);;
 }
 #catImage {
   width: 25vw;
@@ -235,7 +235,9 @@ h4 {
     margin-bottom: 9px;
   }
   #imageAndBody {
+    display: flex;
     flex-direction: column;
+    gap: 25px;
   }
   #textBody {
     font-size: 10px;
@@ -276,7 +278,9 @@ h4 {
     font-size: 12px;
   }
   #imageAndBody {
+    display: flex;
     flex-direction: column;
+    gap: 25px;
   }
   #webAccessibility {
     width: 55px;
@@ -314,6 +318,7 @@ h4 {
     font-size: 14px;
   }
   #imageAndBody {
+    display: flex;
     flex-direction: row;
     gap: 25px;
   }
