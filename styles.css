@@ -33,9 +33,9 @@ h4 {
   padding-right: 15%;
 }
 #visualDesignGuide {
-  width: 80%;
-  padding-left: 10%;
-  padding-right: 10%;
+  width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 #desktopRedesign {
   width: 80%;
@@ -48,9 +48,9 @@ h4 {
   padding-right: 20%;
 }
 #phoneRedesign {
-  width: 40%;
-  padding-left: 30%;
-  padding-right: 30%;
+  width: 30%;
+  padding-left: 35%;
+  padding-right: 35%;
 }
 #webpage {
   display: flex;
