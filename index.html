@@ -27,28 +27,33 @@
       </div>
       <div>
         <p>
-          This study aims at redesigning the home page of the website of City Kitty, 
-          a local vet in Providence providing healthcare for cats. I chose this website 
-          because I plan to take my cat to City Kitty for a vet visit. I chose this interface 
-          because I saw some design problems in it, such as the buttons did not present themselves 
-          as clickable, making it hard for users to learn the interface. 
+          Hi there! This is Shuyi again with my studies in interaction design. I am doing a webpage responsive redesign project 
+          for my Interaction Design class at Brown University. This project aims at redesigning <a href="https://city-kitty.com/">the home page of the website of City Kitty</a>, 
+          which is a local vet in Providence providing healthcare for cats. I chose this website 
+          because I plan to take my cat to City Kitty for a vet visit. I noticed some design deficiencies in its home page, such as the buttons did not present themselves 
+          as clickable, making it hard for users to learn the interface. In this design project I will incorporate my understanding of interaction design and 
+          present my ideas about how to redesign the webpage to make it more learnable, efficient, memorable and hopefully accessible. I will also create a webpage in HTML/CSS 
+          and incorporate the concept of responsive design into it. This HTML/CSS page will be nicely formatted on screens of various sizes, ranging from a laptop to a tablet, 
+          and also a smartphone. Below is a screenshot of the webpage before my redesign.
         </p>
-        <a href="https://city-kitty.com/">Go to the webpage</a>
         <img id="screenshot" src="assets/city_kitty_screenshot.png" alt="Home page screenshot">
       </div>
       <div>
         <h2 class="sectionTitle">0. Finding Problems</h2>
       </div>
       <div>
+        I noticed a few problems with respect to this webpage's efficiency, learnability and memorability. These 
+        are potential problems that make the webpage hard to use for the general users. I also have some ideas about how to 
+        improve this webpage in these three categories and will list them below:
         <h4 class="subTitle">Efficiency:</h4>
         <ul>
           <li>
-            Because users usually read from left to right and then top to bottom, I 
+            Currently the buttons are positioned vertically as directions in a street sign. Because users usually read from left to right and then top to bottom, I 
             think laying out the clickable buttons horizontally at the top will be 
             more efficient.
           </li>
           <li>
-            In addition, the text on the buttons are not written horizontally, but instead 
+            In addition, the text on the buttons are not written 100% horizontally, but instead 
             with some angles, which makes it harder for the users to read. I suggest making them 
             all horizontal and parallel.
           </li>
@@ -73,15 +78,13 @@
           <li>
             All the clickable items are laid out with the same design without clear hierarchies, 
             which makes it harder to memorize for the users. For a redesign, I would place some buttons 
-            on the top right corner and the others above the title to make it more memorable.
-          </li>
-          <li>
-            The important information such as address and phone number is not highlighted red while 
-            the less important messages, such as the welcome message, are highlighted red.
+            on the top right corner and the others below the title, with some in bold text and some not, to make it more memorable.
           </li>
         </ul>
       </div>
       <div>
+        Besides efficiency, memorability and learnability, I also ran the webpage through WebAIM WAVE to test its accessibillity. 
+        The page performs relatively well in this criteria but some problems are still identified.
         <h4 class="subTitle">Accessibility:</h4>
         <ul>
           <li>
@@ -94,7 +97,7 @@
           </li>
           <li>
             I think the suspicious link text alert occured because the link was inserted in a block of text and does not 
-            make consistent sense in its context. The link could be wrapped in a more meaningful sentence.
+            make consistent semantic sense in its context.
           </li>
         </ul>
       </div>
@@ -102,15 +105,16 @@
         <h2 class="sectionTitle">1. Visual Redesign</h2>
       </div>
       <div>
-        I created a visual design guide for my redesign of the webpage. It is currently a preliminary version 
-        of the design plan, as shown in the image below. 
+        Based on my findings above, I created a visual design guide for my redesign of the webpage, outlining the logo(s), buttons, color palette and fonts.
+        The redesign focuses on simplicity and usability with clear hierarchies indicated by different font colors and font sizes. 
         <img id="visualDesignGuide" src="assets/visual_design_guide.png" alt="Visual design guide">
       </div>
       <div>
         <h2 class="sectionTitle">2. Mockups</h2>
       </div>
+      <div>I then created mockups for three different screen sizes/types. </div>
       <div>
-        <h4 class="subTitle">Desktop:</h4>
+        <h4 class="subTitle">Laptop:</h4>
         <img id="desktopRedesign" src="assets/desktop_redesign.png" alt="Desktop Redesign Mockup">
       </div>
       <div>
@@ -153,63 +157,65 @@
         </li>
       </ul>
       <div id="webpage">
-        <div id="topContainer">
-          <div id="floatingButtons">
-            <div class="greyButtonText">FAQs</div>
-            <div class="greyButtonText">Links</div>
-            <div class="greyButtonText">Join Our Team</div>
+        <div id="header">
+          <div id="topContainer">
+            <div id="floatingButtons">
+              <div class="greyButtonText">FAQs</div>
+              <div class="greyButtonText">Links</div>
+              <div class="greyButtonText">Join Our Team</div>
+            </div>
+            <div id="title">City Kitty</div>
           </div>
-          <div id="title">City Kitty</div>
-        </div>
-        <div id="buttons">
-          <div id="firstRow">
-            <div class="Column1">
-              <div class="blueButtonText">Home</div>
+          <div id="buttons">
+            <div id="firstRow">
+              <div class="Column1">
+                <div class="blueButtonText">Home</div>
+              </div>
+              <div class="Column2">
+                <div class="blueButtonText">Hours and Directions</div>
+              </div>
+              <div class="Column3">
+                <div class="blueButtonText">Online Store</div>
+              </div>
+              <div class="Column4">
+                <div class="blueButtonText">Meet Our Staff</div>
+              </div>
+              <div class="Column5">
+                <div class="blueButtonText">Our Reviews</div>
+              </div>
             </div>
-            <div class="Column2">
-              <div class="blueButtonText">Hours and Directions</div>
+            <div id="secondRow">
+              <div class="Column1">
+                <div class="blueButtonText">Google Map</div>
+              </div>
+              <div class="Column2">
+                <div class="blueButtonText">Memorials</div>
+              </div>
+              <div class="Column3">
+                <div class="blueButtonText">Helpful Videos</div>
+              </div>
+              <div class="Column4">
+                <div class="blueButtonText">Call Us</div>
+              </div>
+              <div class="Column5">
+                <div class="blueButtonText">Email</div>
+              </div>
             </div>
-            <div class="Column3">
-              <div class="blueButtonText">Online Store</div>
+            <div id="thirdRow">
+              <div class="Column1">
+                <div class="orangeButtonText">Routine Care</div>
+              </div>
+              <div class="Column2">
+                <div class="orangeButtonText">Surgical and Dental Procedures</div>
+              </div>
+              <div class="Column3">
+                <div class="orangeButtonText">New Clients</div>
+              </div>
+              <div class="Column4">
+                <div class="orangeButtonText">Request an Appointment</div>
+              </div>
+              <div class="Column5" id="invisibleButton"></div>
             </div>
-            <div class="Column4">
-              <div class="blueButtonText">Meet Our Staff</div>
-            </div>
-            <div class="Column5">
-              <div class="blueButtonText">Our Reviews</div>
-            </div>
-          </div>
-          <div id="secondRow">
-            <div class="Column1">
-              <div class="blueButtonText">Google Map</div>
-            </div>
-            <div class="Column2">
-              <div class="blueButtonText">Memorials</div>
-            </div>
-            <div class="Column3">
-              <div class="blueButtonText">Helpful Videos</div>
-            </div>
-            <div class="Column4">
-              <div class="blueButtonText">Call Us</div>
-            </div>
-            <div class="Column5">
-              <div class="blueButtonText">Email</div>
-            </div>
-          </div>
-          <div id="thirdRow">
-            <div class="Column1">
-              <div class="orangeButtonText">Routine Care</div>
-            </div>
-            <div class="Column2">
-              <div class="orangeButtonText">Surgical and Dental Procedures</div>
-            </div>
-            <div class="Column3">
-              <div class="orangeButtonText">New Clients</div>
-            </div>
-            <div class="Column4">
-              <div class="orangeButtonText">Request an Appointment</div>
-            </div>
-            <div class="Column5" id="invisibleButton"></div>
           </div>
         </div>
         <div id="imageAndBody">

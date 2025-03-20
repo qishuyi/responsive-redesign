@@ -63,7 +63,7 @@ h4 {
 }
 .greyButtonText {
   display: inline-block;
-  color: #808487;
+  color: #074B83;
   flex: 1;
   padding: 10px;
   text-align: left;
@@ -71,7 +71,14 @@ h4 {
   cursor: pointer;
 }
 .greyButtonText:hover {
-  color: #47494A;
+  color: #03172B;
+}
+#header {
+  background-color: rgba(91, 203, 255, 0.23);
+  background-image: url('assets/CityKitty_MainBG-1-1_phone.png');
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
 }
 #buttons {
   display: flex;
@@ -82,81 +89,69 @@ h4 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   margin-top: 35px;
 }
 .Column1 {
   display: flex;
   justify-content: center;
-  border-left: 1px solid #808487;
-  border-right: 1px solid #808487;
-  box-sizing: border-box;
   width: 12vw;
   word-wrap: break-word;
 }
 .Column2 {
   display: flex;
   justify-content: center;
-  border-left: 1px solid #808487;
-  border-right: 1px solid #808487;
-  box-sizing: border-box;
   width: 20vw;
   word-wrap: break-word;
 }
 .Column3 {
   display: flex;
   justify-content: center;
-  border-left: 1px solid #808487;
-  border-right: 1px solid #808487;
-  box-sizing: border-box;
   width: 12vw;
   word-wrap: break-word;
 }
 .Column4 {
   display: flex;
   justify-content: center;
-  border-left: 1px solid #808487;
-  border-right: 1px solid #808487;
-  box-sizing: border-box;
   width: 20vw;
   word-wrap: break-word;
 }
 .Column5 {
   display: flex;
   justify-content: center;
-  border-left: 1px solid #808487;
-  border-right: 1px solid #808487;
-  box-sizing: border-box;
   width: 12vw;
   word-wrap: break-word;
 }
 .blueButtonText {
-  color: #0E89EE;
+  color: #074B83;
   text-decoration: underline;
   text-align: center;
   cursor: pointer;
 }
 .blueButtonText:hover {
-  color: #063969;
+  color: #03172B;
 }
 #secondRow {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 #thirdRow {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 .orangeButtonText {
-  color: #E77F10;
+  color: #074B83;
   font-weight: bold;
   text-decoration: underline;
   text-align: center;
   cursor: pointer;
 }
 .orangeButtonText:hover {
-  color: #964D04;
+  color: #03172B;
 }
 #invisibleButton {
   visibility: hidden;
@@ -183,12 +178,12 @@ h4 {
   font-weight: bold;
 }
 .blueLinkText {
-  color: #0E89EE;
+  color: #074B83;
   text-decoration: underline;
   cursor: pointer;
 }
 .blueLinkText:hover {
-  color: #063969;
+  color: #03172B;
 }
 #webAccessibility {
   margin-top: 1%;
