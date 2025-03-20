@@ -27,8 +27,8 @@
       </div>
       <div>
         <p>
-          Hi there! This is Shuyi again with my studies in interaction design. I am doing a webpage responsive redesign project 
-          for my Interaction Design class at Brown University. This project aims at redesigning <a href="https://city-kitty.com/">the home page of the website of City Kitty</a>, 
+          Hi there! This is Shuyi with my studies in interaction design. I am doing a webpage responsive redesign project 
+          for an Interaction Design class at Brown University. This project aims at redesigning <a href="https://city-kitty.com/">the home page of the website of City Kitty</a>, 
           which is a local vet in Providence providing healthcare for cats. 
         </p>
         <p>
@@ -57,12 +57,11 @@
         <ul>
           <li>
             Currently the buttons are positioned vertically as directions in a street sign. Because users usually read from left to right and then top to bottom, I 
-            think laying out the clickable buttons horizontally at the top will be 
-            more efficient.
+            think laying out the clickable buttons horizontally at the top will be more efficient.
           </li>
           <li>
             In addition, the text on the buttons are not written 100% horizontally, but instead 
-            with some angles, which makes it harder for the users to read. I suggest making them 
+            with some angles, which makes it harder for the users to read and thus less efficient. I suggest making them 
             all horizontal and parallel.
           </li>
         </ul>
@@ -71,13 +70,14 @@
         <h4 class="subTitle">Learnability:</h4>
         <ul>
           <li>
-            The design of making all the clickable buttons into street signs is also inefficient 
+            The design of making all the clickable buttons into street signs also makes the buttons hard to learn 
             because it makes the buttons look like they are only for decorative purpose, which makes it 
             harder to learn.
           </li>
           <li>
-            Moreover, the title "Veterinary Care For Cats" has the same design as the buttons but the title 
-            is not clickable, which also makes the interface hard to learn.
+            Moreover, the title "City Kitty" has the same design as the buttons but the title 
+            is not clickable, which also makes the interface hard to learn because the users tend to think that all elements of the same 
+            design are either all clickable or all unclickable.
           </li>
         </ul>
       <div>
@@ -85,7 +85,8 @@
         <ul>
           <li>
             All the clickable items are laid out with the same design without clear hierarchies, 
-            which makes it harder to memorize for the users. For a redesign, I would place some buttons 
+            which makes it harder to memorize for the users. I think making some more frequently used buttons stand out more 
+            would be a better idea. For a redesign, I would place some buttons 
             on the top right corner and the others below the title, with some in bold text and some not, to make it more memorable.
           </li>
         </ul>
@@ -105,7 +106,8 @@
           </li>
           <li>
             I think the suspicious link text alert occured because the link was inserted in a block of text and does not 
-            make consistent semantic sense in its context.
+            make consistent semantic sense in its context. For example, the link's text ("CLICK FOR MAP") is a standalone sentence and not consistent 
+            with the text before or after it.
           </li>
         </ul>
       </div>
@@ -123,14 +125,68 @@
       <div>I then created mockups for three different screen sizes/types. </div>
       <div>
         <h4 class="subTitle">Laptop:</h4>
+        <ul>
+          <li>
+            For larger screens, I will be using flex layout and the text font sizes will be 14px for body, 14px for buttons and 36px for title. 
+          </li>
+          <li>
+            The flex direction for the image and the text body will “row”.
+          </li> 
+          <li>
+            The flex direction for the buttons in the same row will be “row”, which will be the same for all screen sizes. The flex direction for the paragraphs in the body will be “column”, which will also be the same across all screen sizes. 
+          </li>  
+          <li>
+            The buttons text will change color when being hovered over. 
+          </li>  
+          <li>
+            The horizontal line spacing will be larger for larger screens like a desktop. The accessibility icon and the image of the cat will be larger.
+          </li>
+        </ul>
         <img id="desktopRedesign" src="assets/desktop_redesign.png" alt="Desktop Redesign Mockup">
       </div>
       <div>
         <h4 class="subTitle">Tablet:</h4>
+        <ul>
+          <li>
+            For medium-sized screens like an iPad, I will be using flex layout for the buttons and flex layout with flex direction ”column” to position the image and the text body. 
+          </li>
+          <li>
+            The text font sizes will be smaller than those for desktops (12px for body and buttons and 32px for title. 
+          </li>
+          <li>
+            The buttons text will change color when being hovered over. 
+          </li>
+          <li>
+            The line spacing will be the same as a Desktop vertically but smaller than a Desktop horizontally. 
+          </li>
+          <li>
+            The image of the cat will be smaller than that for desktops. 
+          </li>
+          <li>
+            The accessibility icon will be larger than for phone but smaller than for desktop. 
+          </li>
+        </ul>
         <img id="tabletRedesign" src="assets/tablet_redesign.png" alt="Tablet Redesign Mockup">
       </div>
       <div>
         <h4 class="subTitle">Phone:</h4>
+        <ul>
+          <li>
+            For smaller screens, I will be using flex layout for the buttons and also flex layout with flex direction “column” to position the image and the text body. 
+          </li>
+          <li>
+            The text font sizes will be smaller (10px for body, 10px for buttons and 24px for title). 
+          </li>
+          <li>
+            The buttons will change color when being hovered over. 
+          </li>
+          <li>
+            The horizontal line spacing will be smaller than a desktop and a tablet horizontally and the same as desktop and tablet vertically. 
+          </li>
+          <li>  
+            The accessibility icon will be smaller.
+          </li>
+        </ul>
         <img id="phoneRedesign" src="assets/phone_redesign.png" alt="Phone Redesign Mockup">
       </div>
     </div>
